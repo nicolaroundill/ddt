@@ -45,10 +45,7 @@
           originY: 1
         });   
 
-        $(".cover").on('click touch', function(){
-          $(".cover").addClass("hide");
-        });
-
+        
         $(".tulip").on('click touch', function(){
           console.log("working");
           sceneSelector = sceneSelector + 1;

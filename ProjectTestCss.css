@@ -1,13 +1,3 @@
-.PRELOAD {
-	display: none;
-}
-
-.cover {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-}
-
 .duck01 {
 	position: absolute;
 	top: 400px;
