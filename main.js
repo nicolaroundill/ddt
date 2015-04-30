@@ -40,7 +40,7 @@ $(document).ready(function(){
     limitY: 10,
     scalarX: 2,
     scalarY: 8,
-    frictionX: 1.7,
+    frictionX: 0.8,
     frictionY: 0.8,
     originX: 1,
     originY: 1
