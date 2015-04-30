@@ -1,3 +1,4 @@
+/*Duck position*/
 .duck01 {
 	position: absolute;
 	top: 400px;
@@ -5,6 +6,7 @@
 
 }
 
+/*Death position*/
 .death01 {
 	position: absolute;
 	top: 400px;
@@ -12,25 +14,28 @@
 
 }
 
+/*Foreground (fence) position*/
 .foreground {
 	position: absolute;
 	top: 0px;
 	left: 0px;
 }
 
+/*Parallax layers beginning position*/
 .parallaxtest {
 	position: absolute;
 	top: -50px;
 	left: -50px;
 }
 
-
+/*Tulip position*/
 .tulip {
 	position: absolute;
 	top: 660px;
 	left: 900px;
 }
 
+/*Font characteristics*/
 p {
 	position: absolute;
 	top: 100px;
@@ -43,10 +48,12 @@ p {
 	font-color: black;	
 }
 
+/*Text hide*/
 .hide {
 	display: none;
 }
 
+/*First animation*/
 @-webkit-keyframes anim1 {
 	0% {left: 650px;}
 	100% {left: 700px;}
@@ -60,6 +67,7 @@ p {
 	-webkit-animation-timing-function: ease-out;
 }
 
+/*Second animation*/
 @-webkit-keyframes anim2 {
 	0% {left: 50px;}
 	100% {left: 300px;}
@@ -73,6 +81,7 @@ p {
 	-webkit-animation-timing-function: ease-out;
 }
 
+/*Third animation*/
 @-webkit-keyframes anim3 {
 	0% {left: 700px;}
 	100% {left: 750px;}
@@ -86,6 +95,7 @@ p {
 	-webkit-animation-timing-function: ease-out;
 }
 
+/*Fourth animation*/
 @-webkit-keyframes anim4 {
 	0% {left: 300px;}
 	100% {left: 400px;}
@@ -99,6 +109,7 @@ p {
 	-webkit-animation-timing-function: ease-out;
 }
 
+/*Fifth animation*/
 @-webkit-keyframes anim5 {
 	0% {left: 700px;}
 	100% {left: 800px;}
@@ -111,7 +122,3 @@ p {
 	-webkit-animation-fill-mode: forwards;
 	-webkit-animation-timing-function: ease-out;
 }
-
-
-
-
