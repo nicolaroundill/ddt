@@ -39,7 +39,7 @@
           limitY: 10,
           scalarX: 2,
           scalarY: 8,
-          frictionX: 0.9,
+          frictionX: 1.7,
           frictionY: 0.8,
           originX: 1,
           originY: 1
